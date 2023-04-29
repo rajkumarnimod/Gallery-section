@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #262626;
+}
+.gallery
+{
+    width: 90%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    margin: 1px auto 2px;
+}
+
+.gallery-col
+{
+    width: 250px;
+    height: 200px;
+    margin: 2px auto 1px;
+}
+
+.gallery-col:hover img
+{
+    transform: scale(0.9) rotate(-10deg);
+    box-shadow: 8px 10px 40px #efefef;
+}
+.gallery-col img
+{
+    width: 100%;
+    border-radius: 20px 0  20px 0;
+    transition: all 0.5s ease;
+   
+}
+
+
+
+
+
+
+
+
